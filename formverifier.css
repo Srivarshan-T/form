@@ -1,0 +1,134 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:220px;
+    margin-bottom: 10%;
+    width: 770px;
+    background-color: rgb(230, 121, 121);
+    height: 420px;
+    display: flex;
+    background-image: url("/form verifier/images/bg-intro-desktop.png");
+    border-radius: 5px;
+}
+.content{
+    
+    padding-top:130px ;
+    padding-left: 60px;
+    
+}
+.form{
+    padding-left: 30px;
+    padding-top: 60px;
+    width: 800px;
+    
+}
+.inputform{
+    background-color: rgb(255, 255, 255);
+    width: 240px;
+    padding-left:20px;
+    padding-right: 20px;
+    height:240px;
+    padding-top: 13px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+
+}
+.inputboxes{
+    
+    width:220px;
+    padding-left: 10px;
+    height: 25px;
+    font-size: x-small;
+    border: solid rgb(236, 231, 231);
+    border-radius:3px ;
+    border-width: 1px;
+    
+    
+    
+} 
+.try{
+padding-bottom:10px;
+
+ 
+}
+.try-button{
+    width: 280px;
+    height: 35px;
+    background-color:  hsl(246, 43%, 46%);
+    color: white;
+    font-size: 11px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    cursor: pointer;
+}
+.terms{
+    padding-top: 10px;
+    font-size: 6px;
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 35px;
+    padding-right: 30px;
+    color: grey;
+
+}
+.claim{
+    padding-top:17px;
+
+}
+.inputdiv{
+    padding-top: 12px;
+    position: relative;
+
+}
+.claim-btn{
+    width: 235px;
+    height: 27px;
+    background-color:  hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.highlight{
+    color: red;
+    cursor: pointer;
+}
+.bold{
+    font-size: 30px;
+    padding-bottom: 15px;
+    font-family:poppins;
+    font-weight: 700;
+    color: white;
+
+}
+.small{
+    font-size: 10px;
+    font-family: poppins;
+    color: white;
+}
+.er-image  img{
+width: 17px;
+position:absolute;
+ right: 10px;
+ top: 18px;
+ 
+}
+.er-image{
+    visibility: collapse;
+}
+.err-msg{
+    color: red;
+    font-family: poppins;
+    font-size:  8px;
+    position: absolute;
+    right:7px;
+    visibility: collapse;
+
+}
+
+
+
+
